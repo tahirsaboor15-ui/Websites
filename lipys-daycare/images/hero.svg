@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440"><title>Placeholder illustration of children playing</title>
+<rect width="520" height="440" rx="28" fill="#dbe5f5"/>
+<circle cx="410" cy="95" r="52" fill="#f6c445"/>
+<ellipse cx="120" cy="90" rx="55" ry="20" fill="#fff"/><ellipse cx="160" cy="80" rx="40" ry="18" fill="#fff"/>
+<path d="M0 340 Q130 300 260 335 T520 320 V440 H0Z" fill="#7bc38a"/>
+<path d="M0 385 Q150 355 300 385 T520 372 V440 H0Z" fill="#e0932f" opacity=".85"/>
+<g stroke="#1f2a5c" stroke-width="5" stroke-linecap="round">
+<g transform="translate(110 250)"><circle r="26" fill="#f2c9a0"/><path d="M-26 -8 Q0 -40 26 -8" fill="#6b3f1d" stroke="none"/><rect x="-24" y="30" width="48" height="60" rx="14" fill="#e0932f" stroke="none"/><path d="M-24 45 L-50 20 M24 45 L50 20"/><path d="M-12 90 V125 M12 90 V125"/></g>
+<g transform="translate(260 270)"><circle r="22" fill="#f2c9a0"/><path d="M-22 -6 Q0 -34 22 -6" fill="#1f2a5c" stroke="none"/><rect x="-20" y="26" width="40" height="52" rx="12" fill="#2a9fb0" stroke="none"/><path d="M-20 38 L-44 55 M20 38 L44 15"/><path d="M-10 78 V108 M10 78 V108"/></g>
+<g transform="translate(400 255)"><circle r="24" fill="#f2c9a0"/><path d="M-24 -6 Q0 -38 24 -6" fill="#c4772a" stroke="none"/><rect x="-22" y="28" width="44" height="56" rx="13" fill="#7b99c7" stroke="none"/><path d="M-22 40 L-46 18 M22 40 L46 60"/><path d="M-11 84 V118 M11 84 V118"/></g></g>
+<g font-family="Arial" font-weight="700" font-size="40"><rect x="205" y="95" width="56" height="56" rx="10" fill="#e0932f" transform="rotate(-8 233 123)"/><text x="219" y="136" fill="#fff" transform="rotate(-8 233 123)">A</text><rect x="272" y="80" width="56" height="56" rx="10" fill="#2a9fb0" transform="rotate(6 300 108)"/><text x="287" y="120" fill="#fff" transform="rotate(6 300 108)">B</text><rect x="339" y="100" width="56" height="56" rx="10" fill="#f6c445" transform="rotate(-4 367 128)"/><text x="354" y="140" fill="#1f2a5c" transform="rotate(-4 367 128)">C</text></g></svg>

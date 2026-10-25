@@ -48,3 +48,6 @@ address{font-style:normal}
 .note{margin-top:24px;font-size:1.1rem}.hours .big{font:600 2.2rem Fredoka,sans-serif;color:var(--navy);margin:0}
 .cta-band{background:var(--sky)}.cta-band .eyebrow{color:var(--navy);filter:none}
 .contact-card{background:#fff;border-radius:var(--r);padding:28px;box-shadow:var(--shadow);font-size:1.2rem;border-top:6px solid var(--pri)}.contact-card p{margin:.6em 0}
+.logo{width:40px;height:40px;vertical-align:middle;margin-right:6px}
+.hero-img{position:relative;width:min(100%,460px);height:auto;border-radius:28px;box-shadow:var(--shadow);transform:rotate(2deg)}
+.about-img{width:100%;height:auto;border-radius:var(--r);box-shadow:var(--shadow);margin-top:20px}
