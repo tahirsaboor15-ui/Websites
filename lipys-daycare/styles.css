@@ -21,7 +21,6 @@ nav a:not(.btn):hover{background:var(--tint)}
 .lead{font-size:1.2rem;color:var(--muted);max-width:34em}.cta{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}
 .trust{list-style:none;padding:0;margin:0;display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-weight:700;font-size:.95rem}
 .hero-art{position:relative;min-height:340px;display:grid;place-items:center}
-.blob{position:absolute;border-radius:50%}.b1{width:300px;height:300px;background:var(--sun);top:0;right:10px;opacity:.8}.b2{width:200px;height:200px;background:var(--teal);bottom:0;left:10px;opacity:.6}
 .card-art{position:relative;width:260px;height:300px;background:#fff;border-radius:var(--r);box-shadow:var(--shadow);display:grid;place-content:center;text-align:center;font-size:5rem;transform:rotate(3deg)}
 .card-art small{font-size:.8rem;color:var(--muted);padding:0 12px}.card-art span{font-size:5rem}
 .stats{background:var(--ink);color:#fff;padding:28px 0}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
