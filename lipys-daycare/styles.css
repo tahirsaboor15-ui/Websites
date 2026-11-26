@@ -47,6 +47,7 @@ address{font-style:normal}
 .contact-card p{margin:0;display:grid;grid-template-columns:48px 1fr;align-items:center;gap:16px}
 .contact-card .ico{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--tint);font-size:1.4rem}
 .contact-card a{font:600 1.7rem/1.25 Fredoka,sans-serif;color:var(--navy);text-decoration:none}
+.contact-card .phones{display:grid;gap:6px}
 .contact-card a:hover{color:var(--pri-d);text-decoration:underline}
 .contact-card .hrs{font:600 1.15rem/1.3 Nunito,sans-serif;color:var(--muted)}
 .logo{width:40px;height:40px;vertical-align:middle;margin-right:6px}
