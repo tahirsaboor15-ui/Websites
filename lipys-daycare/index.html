@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -132,6 +132,28 @@
 <footer class="site-footer">
   <div class="wrap">© <span id="yr"></span> Lipy's Day Care · 2055 Bogart Avenue, Bronx, NY 10462 · Tel: <a href="tel:+19172881835">917.288.1835</a> · <a href="tel:+17185181597">718.518.1597</a></div>
 </footer>
-<script src="script.js"></script>
+<script>
+(function () {
+  var btn = document.querySelector('.menu-btn'), nav = document.getElementById('nav');
+  function setOpen(open) {
+    nav.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  if (btn && nav) {
+    btn.addEventListener('click', function () { setOpen(!nav.classList.contains('open')); });
+    nav.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('click', function (e) {
+      if (nav.classList.contains('open') && !nav.contains(e.target) && !btn.contains(e.target)) setOpen(false);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && nav.classList.contains('open')) { setOpen(false); btn.focus(); }
+    });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1020) setOpen(false); });
+  }
+  var yr = document.getElementById('yr');
+  if (yr) yr.textContent = new Date().getFullYear();
+})();
+</script>
+<noscript><style>.menu-btn{display:none!important}.bar{flex-wrap:wrap}nav{display:flex!important;flex-direction:row!important;flex-wrap:wrap;width:100%;position:static!important;box-shadow:none!important;padding:0 0 12px!important;background:transparent!important}</style></noscript>
 </body>
 </html>
