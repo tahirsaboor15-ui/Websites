@@ -56,3 +56,9 @@ address{font-style:normal}
 @media(max-width:480px){.contact-card{padding:24px 20px}.contact-card p{grid-template-columns:40px 1fr;gap:12px}.contact-card .ico{width:40px;height:40px;font-size:1.2rem}.contact-card a{font-size:1.35rem}}
 .site-footer a{color:#fff;font-weight:700;text-decoration:none}.site-footer a:hover{text-decoration:underline}
 .btn{white-space:nowrap}
+.hero-phones{display:flex;align-items:center;gap:14px;margin:0 18px 0 0}
+.hero-phones .nums{display:flex;flex-wrap:wrap;gap:2px 22px}
+.cta{align-items:center;gap:16px 12px}
+.hero-phones .ico{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#fff;font-size:1.3rem}
+.hero-phones a{font:600 1.6rem/1.25 Fredoka,sans-serif;color:var(--navy);text-decoration:none}
+.hero-phones a:hover{color:var(--pri-d);text-decoration:underline}
