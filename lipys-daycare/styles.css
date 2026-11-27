@@ -58,8 +58,6 @@ address{font-style:normal}
 .btn{white-space:nowrap}
 .hero-phones{display:flex;align-items:center;gap:14px;margin:0 18px 0 0}
 .hero-phones .nums{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
-.hero-phones small{font:700 .8rem Nunito,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.hero-phones small{display:block}
 .hero-phones .num{display:block}
 .hero-phones a{display:inline-block;padding:2px 0}
 .hero-phones .num+.num{border-top:2px solid rgba(31,42,92,.15);padding-top:6px;margin-top:2px;width:100%}
@@ -67,3 +65,8 @@ address{font-style:normal}
 .hero-phones .ico{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#fff;font-size:1.3rem}
 .hero-phones a{font:600 1.6rem/1.25 Fredoka,sans-serif;color:var(--navy);text-decoration:none}
 .hero-phones a:hover{color:var(--pri-d);text-decoration:underline}
+.nav-phones{display:flex;align-items:center;flex-wrap:wrap;gap:0 10px;margin-left:10px}
+.nav-phones a{font:600 1.15rem/1.3 Fredoka,sans-serif;color:var(--navy);text-decoration:none;padding:10px 0;white-space:nowrap}
+.nav-phones a:hover{color:var(--pri-d);text-decoration:underline}
+.nav-phones .sep{color:var(--muted);font-weight:400}
+@media(max-width:1020px){.nav-phones{margin:8px 0 0}}
