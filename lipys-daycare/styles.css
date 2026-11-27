@@ -59,8 +59,10 @@ address{font-style:normal}
 .hero-phones{display:flex;align-items:center;gap:14px;margin:0 18px 0 0}
 .hero-phones .nums{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
 .hero-phones small{font:700 .8rem Nunito,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.hero-phones small{display:block}
+.hero-phones .num{display:block}
 .hero-phones a{display:inline-block;padding:2px 0}
-.hero-phones a+a{border-top:2px solid rgba(31,42,92,.15);padding-top:6px;margin-top:2px;width:100%}
+.hero-phones .num+.num{border-top:2px solid rgba(31,42,92,.15);padding-top:6px;margin-top:2px;width:100%}
 .cta{align-items:center;gap:16px 12px}
 .hero-phones .ico{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#fff;font-size:1.3rem}
 .hero-phones a{font:600 1.6rem/1.25 Fredoka,sans-serif;color:var(--navy);text-decoration:none}
